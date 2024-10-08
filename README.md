@@ -49,7 +49,7 @@ mvn spring-boot:run
 
 Acesse a aplicação que estará disponível em 
 http://localhost:8080
-``
+```
 
 ## Endpoints
 
