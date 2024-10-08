@@ -49,3 +49,38 @@ mvn spring-boot:run
 
 Acesse a aplicação que estará disponível em 
 http://localhost:8080
+```
+
+## Endpoints
+
+### Cliente
+
+- **GET** `/clientes`: Retorna todos os clientes.
+- **GET** `/clientes/{id}`: Retorna um cliente pelo ID.
+- **POST** `/clientes`: Cria um novo cliente.
+- **PUT** `/clientes/{id}`: Atualiza um cliente existente.
+- **DELETE** `/clientes/{id}`: Deleta um cliente pelo ID.
+
+### Endereço
+
+- **GET** `/enderecos`: Retorna todos os endereços.
+- **GET** `/enderecos/{id}`: Retorna um endereço pelo ID.
+- **POST** `/enderecos`: Cria um novo endereço.
+- **PUT** `/enderecos/{id}`: Atualiza um endereço existente.
+- **DELETE** `/enderecos/{id}`: Deleta um endereço pelo ID.
+
+### Atendimento
+
+- **GET** `/atendimentos`: Retorna todos os atendimentos.
+- **GET** `/atendimentos/{id}`: Retorna um atendimento pelo ID.
+- **POST** `/atendimentos`: Cria um novo atendimento.
+- **PUT** `/atendimentos/{id}`: Atualiza um atendimento existente.
+- **DELETE** `/atendimentos/{id}`: Deleta um atendimento pelo ID.
+
+### Tratamento
+
+- **GET** `/tratamentos`: Retorna todos os tratamentos.
+- **GET** `/tratamentos/{id}`: Retorna um tratamento pelo ID.
+- **POST** `/tratamentos`: Cria um novo tratamento.
+- **PUT** `/tratamentos/{id}`: Atualiza um tratamento existente.
+- **DELETE** `/tratamentos/{id}`: Deleta um tratamento pelo ID.
