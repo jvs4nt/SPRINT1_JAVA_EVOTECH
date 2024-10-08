@@ -61,14 +61,6 @@ http://localhost:8080
 - **PUT** `/clientes/{id}`: Atualiza um cliente existente.
 - **DELETE** `/clientes/{id}`: Deleta um cliente pelo ID.
 
-### Endereço
-
-- **GET** `/enderecos`: Retorna todos os endereços.
-- **GET** `/enderecos/{id}`: Retorna um endereço pelo ID.
-- **POST** `/enderecos`: Cria um novo endereço.
-- **PUT** `/enderecos/{id}`: Atualiza um endereço existente.
-- **DELETE** `/enderecos/{id}`: Deleta um endereço pelo ID.
-
 ### Atendimento
 
 - **GET** `/atendimentos`: Retorna todos os atendimentos.
