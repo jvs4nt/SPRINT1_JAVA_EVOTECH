@@ -24,6 +24,7 @@ public class Atendimento {
     private Tratamento tratamento;
 
     @NotNull
+    @FutureOrPresent
     private LocalDate data;
 
     @NotBlank
