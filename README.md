@@ -76,3 +76,11 @@ http://localhost:8080
 - **POST** `/tratamentos`: Cria um novo tratamento.
 - **PUT** `/tratamentos/{id}`: Atualiza um tratamento existente.
 - **DELETE** `/tratamentos/{id}`: Deleta um tratamento pelo ID.
+- 
+### Rede Credenciada
+
+- **GET** `/rede-credenciada`: Retorna todos os tratamentos.
+- **GET** `/rede-credenciada/{id}`: Retorna um tratamento pelo ID.
+- **POST** `/rede-credenciada`: Cria um novo tratamento.
+- **PUT** `/rede-credenciada/{id}`: Atualiza um tratamento existente.
+- **DELETE** `/rede-credenciada/{id}`: Deleta um tratamento pelo ID.
