@@ -51,7 +51,7 @@ Acesse a aplicação que estará disponível em
 http://localhost:8080
 ```
 
-## Endpoints
+## 3. Endpoints
 ### Todos estão organizados com links do Hateoas para facilitar a navegação
 
 ### Cliente
@@ -85,3 +85,10 @@ http://localhost:8080
 - **POST** `/rede-credenciada`: Cria um novo tratamento.
 - **PUT** `/rede-credenciada/{id}`: Atualiza um tratamento existente.
 - **DELETE** `/rede-credenciada/{id}`: Deleta um tratamento pelo ID.
+
+## 4. Imagens dos diagramas
+
+- <img width="826" alt="image" src="https://github.com/user-attachments/assets/a0fe22b6-e533-4fd3-b3e6-300a9a9c4c18">
+
+- <img width="923" alt="image" src="https://github.com/user-attachments/assets/29f6afc2-defe-40f1-87cc-f2fb48a31e7c">
+
