@@ -52,6 +52,7 @@ http://localhost:8080
 ```
 
 ## Endpoints
+### Todos estão organizados com links do Hateoas para facilitar a navegação
 
 ### Cliente
 
