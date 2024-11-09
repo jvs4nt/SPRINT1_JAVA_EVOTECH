@@ -20,6 +20,8 @@ RM554021 - Sara Ingrid da Silva
 - Liderança da entrega
 - Desenvolvimento do backend
 
+Link do vídeo: https://www.youtube.com/watch?v=2ZsDtepJTEI
+
 
 ## 2. Instruções para Rodar a Aplicação
 
