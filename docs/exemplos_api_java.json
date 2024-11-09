@@ -1,0 +1,300 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2024-11-09T02:04:47.714Z",
+  "__export_source": "insomnia.desktop.app:v10.1.1",
+  "resources": [
+    {
+      "_id": "req_4bcda81b27f447d7933cdabd7ce38955",
+      "parentId": "wrk_1534c78083cd4f07b035189f05b6f41b",
+      "modified": 1731117640481,
+      "created": 1731107189639,
+      "url": "http://localhost:8080/clientes",
+      "name": "CriarCliente",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n    \"nomeCompleto\": \"João Santos\",\n    \"email\": \"joao.santos@example.com\",\n    \"telefone\": \"11987654321\",\n    \"endereco\": {\n        \"logradouro\": \"Rua Exemplo\",\n        \"numero\": \"123\",\n        \"complemento\": \"Apartamento 45\",\n        \"bairro\": \"Centro\",\n        \"cidade\": \"São Paulo\",\n        \"estado\": \"SP\",\n        \"cep\": \"01001000\"\n    }\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/10.1.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1731117446848,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_1534c78083cd4f07b035189f05b6f41b",
+      "parentId": null,
+      "modified": 1729288424819,
+      "created": 1729288424819,
+      "name": "My Collection",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_c3f01512f5c0482e9b1bf3b7f17f45be",
+      "parentId": "wrk_1534c78083cd4f07b035189f05b6f41b",
+      "modified": 1731117491091,
+      "created": 1731117446748,
+      "url": "http://localhost:8080/clientes/54d570d0-d3d9-426e-a29c-76d15a4c0805",
+      "name": "EditarCliente",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n    \"nomeCompleto\": \"João Santos Editado\",\n    \"email\": \"joao.santos@example.com\",\n    \"telefone\": \"11987654321\",\n    \"endereco\": {\n        \"logradouro\": \"Rua Exemplo\",\n        \"numero\": \"123\",\n        \"complemento\": \"Apartamento 45\",\n        \"bairro\": \"Centro\",\n        \"cidade\": \"São Paulo\",\n        \"estado\": \"SP\",\n        \"cep\": \"01001000\"\n    }\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/10.1.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1731117446748,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_c44dbd36b8454728865045b83530dec7",
+      "parentId": "wrk_1534c78083cd4f07b035189f05b6f41b",
+      "modified": 1731117644322,
+      "created": 1731117314355,
+      "url": "http://localhost:8080/clientes",
+      "name": "ConsultarClientes",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/10.1.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1731117406749,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_c103a7386f9d4a839a403b2f3ce8f28e",
+      "parentId": "wrk_1534c78083cd4f07b035189f05b6f41b",
+      "modified": 1731117398401,
+      "created": 1731117366750,
+      "url": "http://localhost:8080/clientes/54d570d0-d3d9-426e-a29c-76d15a4c0805",
+      "name": "ConsultaUmCliente",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/10.1.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1731117366750,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_cb50c2beaed64af1b638254cd2f991e3",
+      "parentId": "wrk_1534c78083cd4f07b035189f05b6f41b",
+      "modified": 1731117637157,
+      "created": 1731117597186,
+      "url": "http://localhost:8080/rede-credenciada",
+      "name": "CriarRede",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n    \"cnpj\": \"12345678000123\",\n    \"nmEmpresa\": \"Clínica Editada\",\n    \"dtCadastro\": \"2024-11-08\",\n    \"especialidade\": \"Odontologia\",\n    \"telefone\": \"11987654321\",\n    \"email\": \"contato@clinicaexemplo.com\",\n    \"cep\": \"12345678\",\n    \"logradouro\": \"Rua Exemplo\",\n    \"numero\": \"123\",\n    \"complemento\": \"Sala 1\",\n    \"uf\": \"SP\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/10.1.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1730197809607.5,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_59293b0842f54a84a466980c94a354dc",
+      "parentId": "wrk_1534c78083cd4f07b035189f05b6f41b",
+      "modified": 1731117592298,
+      "created": 1729288429576,
+      "url": "http://localhost:8080/rede-credenciada/07f19c18-e5af-4161-9156-a76a0cbd3a1b",
+      "name": "EditarRede",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n    \"cnpj\": \"12345678000123\",\n    \"nmEmpresa\": \"Clínica Editada\",\n    \"dtCadastro\": \"2024-11-08\",\n    \"especialidade\": \"Odontologia\",\n    \"telefone\": \"11987654321\",\n    \"email\": \"contato@clinicaexemplo.com\",\n    \"cep\": \"12345678\",\n    \"logradouro\": \"Rua Exemplo\",\n    \"numero\": \"123\",\n    \"complemento\": \"Sala 1\",\n    \"uf\": \"SP\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/10.1.0"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1729288429576,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_c970a9ff05354fd28b77a215cf3b4635",
+      "parentId": "wrk_1534c78083cd4f07b035189f05b6f41b",
+      "modified": 1731117689910,
+      "created": 1731117650024,
+      "url": "http://localhost:8080/rede-credenciada",
+      "name": "ConsultaRedes",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/10.1.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1729288429476,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_6865d62a7d7046979156bb030074a912",
+      "parentId": "wrk_1534c78083cd4f07b035189f05b6f41b",
+      "modified": 1731117716548,
+      "created": 1731117665374,
+      "url": "http://localhost:8080/rede-credenciada/e4244ddb-8b9c-44de-a98c-d2fcb061e37a",
+      "name": "ConsultaUmaRede",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/10.1.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1729288429376,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_0dcda50620f207517c85d70e9bb2f878c52eceff",
+      "parentId": "wrk_1534c78083cd4f07b035189f05b6f41b",
+      "modified": 1729288424820,
+      "created": 1729288424820,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1729288424820,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_0dcda50620f207517c85d70e9bb2f878c52eceff",
+      "parentId": "wrk_1534c78083cd4f07b035189f05b6f41b",
+      "modified": 1729288424821,
+      "created": 1729288424821,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    }
+  ]
+}
